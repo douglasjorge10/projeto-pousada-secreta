@@ -1,0 +1,80 @@
+@charset 'utf-8';
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: rgb(122, 120, 120);
+}
+ul, li, a{
+    list-style: none;
+    color: #000;
+    text-decoration: none;
+}
+
+/* cabeçalho e menu de navegação */
+.cabecalho{
+    width: 70%;
+    height: 8vh;
+    line-height: 3em;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cabecalho span{
+    color: #b6cbce;
+}
+.cabecalho h2{
+    margin: 6px;
+    font-size: 20pt;
+    
+}
+.cabecalho h2 a{
+    color: rgb(70, 64, 59);
+}
+.navMenu{
+    width: 20%;
+}
+.navMenu ul{
+    list-style: none;
+    display: flex;
+}
+.navMenu li{
+    margin: 5px;
+  
+}
+.navMenu a {
+    font-size: 17pt;
+    text-decoration: none;
+    padding: 5px;
+    color: #000;
+}
+.navMenu a:hover{
+    color: rgb(22, 64, 99);
+    box-shadow: #000 1px 1px 4px 1px;
+    transition: 0.8s;
+}
+/* imagem principal "apresentação" */
+.imgPrin, .imgPrin img {
+    width: 100%;
+}
+.imgPrin figcaption{
+    display: block;
+    width: 60%;
+    height: 30vh;
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 20%;
+    text-align: center;
+    font-size: 25pt;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    color: #fff;
+    border: solid 0.1px rgb(214, 197, 197);
+}
+.imgPrin figcaption span{
+    line-height: 3em;
+    font-size: 35pt;
+}
