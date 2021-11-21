@@ -53,10 +53,10 @@ ul, li, a{
 }
 .navMenu a:hover{
     color: rgb(22, 64, 99);
-    box-shadow: #000 1px 1px 4px 1px;
+    box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 4px 1px;
     transition: 0.8s;
 }
-/* imagem principal "apresentação" */
+/* imagem principal "imagem inicio" */
 .imgPrin, .imgPrin img {
     width: 100%;
 }
@@ -74,7 +74,35 @@ ul, li, a{
     color: #fff;
     border: solid 0.1px rgb(214, 197, 197);
 }
+/* "Seja Bem-Vindo" e cards de descrição dos qaurtos*/
 .imgPrin figcaption span{
     line-height: 3em;
     font-size: 35pt;
+}
+.artCont, .descruart{
+    margin: 50px auto;
+    width: 70%;
+    text-align: center;
+    line-height: 3em;
+}
+.artCont h2{
+    font-size: 25pt;
+}
+.descrQuart {
+   display: flex;
+   margin-top: 50px;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.descrQuart figure{
+   border: solid 1px #fff;
+   box-shadow: rgba(68, 47, 47, 0.3) 2px 2px 5px;
+   
+}
+.descrQuart img:hover{
+    padding: 5px;
+    box-shadow: rgba(68, 47, 47, 10);
+}
+ .descrQuart img{
+     max-width: 300px;
 }
