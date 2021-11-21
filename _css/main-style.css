@@ -106,3 +106,8 @@ ul, li, a{
  .descrQuart img{
      max-width: 300px;
 }
+/* Container Rotas */
+.artCont iframe{
+    width: 140%;
+    margin-left: -20%;  
+}
