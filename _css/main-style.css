@@ -50,11 +50,12 @@ ul, li, a{
     text-decoration: none;
     padding: 5px;
     color: #000;
+    transition: 0.9s;
 }
 .navMenu a:hover{
     color: rgb(22, 64, 99);
     box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 4px 1px;
-    transition: 0.8s;
+    
 }
 /* imagem principal "imagem inicio" */
 .imgPrin, .imgPrin img {
@@ -143,4 +144,35 @@ ul, li, a{
 }
 #figrecep {
   width: 60%;
+}
+/* roda pé */
+.rodape{ 
+    padding-top: 30px;
+    color: #fff;
+    background-color: #009762;
+    height: 20vh;
+}
+.navFoot{
+    margin: 0 auto 15px;
+    height: 10vh;
+    width: 70%;
+    border-bottom: solid 2px rgba(2, 63, 2, 0.192);
+}
+.navFoot ul{
+    display: flex;
+}
+.navFoot ul li{
+    width: 30%;
+    margin: 0 15px
+}
+.navFoot ul li a, strong{
+    display: flex;
+    height: 5vh;
+    color: #fff;
+}
+.navFoot ul li a img{
+    padding-right: 10px;
+}
+.rodape p{
+    text-align: center;
 }
