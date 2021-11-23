@@ -50,12 +50,10 @@ ul, li, a{
     text-decoration: none;
     padding: 5px;
     color: #000;
-    transition: 0.9s;
 }
 .navMenu a:hover{
     color: rgb(22, 64, 99);
     box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 4px 1px;
-    
 }
 /* imagem principal "imagem inicio" */
 .imgPrin, .imgPrin img {
@@ -95,12 +93,12 @@ ul, li, a{
    flex-wrap: wrap;
    justify-content: space-between;
 }
-.descrQuart figure{
+.descrQuart .card{
    border: solid 1px #fff;
    box-shadow: rgba(68, 47, 47, 0.3) 2px 2px 5px;
    
 }
-.descrQuart img:hover{
+.card img:hover{
     padding: 5px;
     box-shadow: rgba(68, 47, 47, 10);
 }
