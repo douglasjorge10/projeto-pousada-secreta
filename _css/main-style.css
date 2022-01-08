@@ -174,3 +174,92 @@ ul, li, a{
 .rodape p{
     text-align: center;
 }
+@media (max-width:430px){
+    section.corpo h2{
+        font-size: 16pt;
+    }
+    section.corpo p{
+        line-height: 1.5em;
+        font-size: 12pt;
+    }
+/* cabecalho header */
+    header.cabecalho{
+        text-align: center;
+        display: block;
+        height: 17vh;
+    }
+    header.cabecalho nav.navMenu {
+        margin-top: -5%;
+        width: 100%;
+    }
+    header.cabecalho nav.navMenu ul li{
+        margin: 0 auto;
+    }
+    header.cabecalho nav.navMenu ul li a{
+        font-size: 12pt;
+    }
+/* imagem principal e seu figcaption */
+    section.corpo figure.imgPrin figcaption{
+        height: 20vh;
+        margin-top: -40%;
+        font-size: 12pt;
+    }
+    section.corpo figure.imgPrin figcaption span{
+        font-size: 15pt;
+    }
+/* imagens dos cards quartos */
+    article.artCont figure.card{
+        width: 100%;
+    }
+    article.artCont figure.card img{
+        width: 100%;   
+    }
+/* iframe rota */
+    article.artCont div.rota iframe{
+        height: 55vh;
+    }
+/* texto titulos e cards da secao sobre */
+    section.corpo .contCardSobre{
+        width: 100%;
+        
+    }
+    .contCardSobre figure.cardSobre{
+        display: flex;
+        margin-bottom: 50px;
+        width: 100%;
+        height: auto;
+    }
+    .contCardSobre figure.cardSobre h3{
+        margin-top: -40px;
+    }
+    .contCardSobre figure.cardSobre img{
+        height: auto;
+      
+    }
+/* footer rosape */
+    footer.rodape{
+        height: auto;
+        clear: both;
+    }
+    footer.rodape nav{
+        height: auto;
+    }
+    footer.rodape nav ul{
+        display: block;
+        height: auto;
+        width: 50%;        
+    }
+    footer.rodape nav ul li{
+        width: 100%;
+        font-size: 12pt;
+        margin:  0;
+        padding: 10px 0;
+    }footer.rodape strong,
+    footer.rodape nav ul li a{
+        width: 200%;
+    }
+    footer.rodape nav,
+    footer.rodape p{
+        padding-bottom: 10px;
+    }
+}
