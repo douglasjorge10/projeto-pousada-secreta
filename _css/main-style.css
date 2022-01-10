@@ -16,7 +16,7 @@ ul, li, a{
 /* cabeçalho e menu de navegação */
 .cabecalho{
     width: 70%;
-    height: 8vh;
+    height: auto;
     line-height: 3em;
     margin: auto;
     display: flex;
@@ -62,10 +62,11 @@ ul, li, a{
 .imgPrin figcaption{
     display: block;
     width: 60%;
-    height: 30vh;
+    height: auto;
     position: absolute;
     margin-top: -30%;
     margin-left: 20%;
+    padding: 16px;
     text-align: center;
     font-size: 25pt;
     background-color: rgba(0, 0, 0, 0.3);
@@ -93,6 +94,9 @@ ul, li, a{
    flex-wrap: wrap;
    justify-content: space-between;
 }
+.descrQuart figure{
+    margin-bottom: 50px;
+}
 .descrQuart .card{
    border: solid 1px #fff;
    box-shadow: rgba(68, 47, 47, 0.3) 2px 2px 5px;
@@ -118,23 +122,22 @@ ul, li, a{
     justify-content: space-between;
 }
 .cardSobre{
-    width: 45%;
-    height: 25vh;
-    margin: 10px;
+    width: 46%;
+    height: auto;
+    margin-bottom: 10%;
     display: flex;
     flex-direction: row-reverse;  
-}.cardSobre figcaption{
+}
+.cardSobre figcaption{
+    display: flex;
+    flex-wrap: wrap;
     line-height: 1.5;
     text-align: left;
 
 }
-.cardSobre figcaption h3{
-    line-height: 5em;
-    margin-bottom: -25px;
-}
 .cardSobre img{
     width: 40%;
-    height: 25vh;
+    height: auto;
 }
 #figquart{
     line-height: 1em;
@@ -144,23 +147,28 @@ ul, li, a{
   width: 60%;
 }
 /* roda pé */
-.rodape{ 
+.rodape{
+    width: 100%; 
     padding-top: 30px;
     color: #fff;
     background-color: #009762;
-    height: 20vh;
+    height: auto;
+}
+.navFoot ul strong{
+    width: 100%;
 }
 .navFoot{
     margin: 0 auto 15px;
+    padding-bottom: 50px;
     height: 10vh;
-    width: 70%;
+    width: 90%;
     border-bottom: solid 2px rgba(2, 63, 2, 0.192);
 }
 .navFoot ul{
     display: flex;
 }
 .navFoot ul li{
-    width: 30%;
+    width: 100%;
     margin: 0 15px
 }
 .navFoot ul li a, strong{
@@ -172,9 +180,10 @@ ul, li, a{
     padding-right: 10px;
 }
 .rodape p{
+    padding-bottom: 20px;
     text-align: center;
 }
-@media (max-width:430px){
+@media (max-width:778px){
     section.corpo h2{
         font-size: 16pt;
     }
@@ -200,7 +209,7 @@ ul, li, a{
     }
 /* imagem principal e seu figcaption */
     section.corpo figure.imgPrin figcaption{
-        height: 20vh;
+        height: auto;
         margin-top: -40%;
         font-size: 12pt;
     }
@@ -213,6 +222,7 @@ ul, li, a{
     }
     article.artCont figure.card img{
         width: 100%;   
+        height: auto;
     }
 /* iframe rota */
     article.artCont div.rota iframe{
@@ -220,6 +230,7 @@ ul, li, a{
     }
 /* texto titulos e cards da secao sobre */
     section.corpo .contCardSobre{
+        margin-top: 10px;
         width: 100%;
         
     }
@@ -230,7 +241,7 @@ ul, li, a{
         height: auto;
     }
     .contCardSobre figure.cardSobre h3{
-        margin-top: -40px;
+        width: 100%;
     }
     .contCardSobre figure.cardSobre img{
         height: auto;
