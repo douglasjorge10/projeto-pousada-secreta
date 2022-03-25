@@ -183,16 +183,48 @@ ul, li, a{
     padding-bottom: 20px;
     text-align: center;
 }
-@media (max-width:778px){
+@media (max-width:1024px){
+    .artCont, .descruart {
+        width: 93%;
+}
+.artCont iframe{
+    width: 100%;
+    margin-left: 0;  
+}
+}
+@media (max-width:840px){
+    .cabecalho {
+        margin-left: 7%;
+    }
+    .imgPrin figcaption {
+        margin-top: -40%;
+    }
+    .artCont, .descruart {
+        width: 97%;
+    }
+    .descrQuart img {
+        max-width: 230px;
+    }
+    .artCont iframe{
+        width: 100%;
+        margin-left: 0;  
+    }
+
+}
+@media (max-width:600px){
     section.corpo h2{
         font-size: 16pt;
     }
-    section.corpo p{
-        line-height: 1.5em;
-        font-size: 12pt;
+    section.corpo p {
+        line-height: 1.3em;
+        font-size: 1em;
+        height: 120px;
     }
+    
+    
 /* cabecalho header */
     header.cabecalho{
+        width: 89%;
         text-align: center;
         display: block;
         height: 17vh;
@@ -210,11 +242,14 @@ ul, li, a{
 /* imagem principal e seu figcaption */
     section.corpo figure.imgPrin figcaption{
         height: auto;
-        margin-top: -40%;
+        margin-top: -45%;
         font-size: 12pt;
     }
     section.corpo figure.imgPrin figcaption span{
         font-size: 15pt;
+    }
+    section.corpo p{
+        height: auto;
     }
 /* imagens dos cards quartos */
     article.artCont figure.card{
@@ -223,6 +258,16 @@ ul, li, a{
     article.artCont figure.card img{
         width: 100%;   
         height: auto;
+    }
+    figure.cardSobre p{
+        margin-top: 10px;
+        height: 170px;
+    }
+    .contCardSobre figure.cardSobre img {
+        height: 270px;
+    }
+    #figquart{
+        height: 200px;
     }
 /* iframe rota */
     article.artCont div.rota iframe{
